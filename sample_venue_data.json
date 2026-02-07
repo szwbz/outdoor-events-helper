@@ -1,0 +1,64 @@
+{
+  "venues": [
+    {
+      "id": "v001",
+      "name": "Central Park Amphitheater",
+      "location": {
+        "address": "Central Park West, New York, NY 10023",
+        "coordinates": {
+          "latitude": 40.7812,
+          "longitude": -73.9655
+        }
+      },
+      "capacity": 5000,
+      "type": "outdoor_amphitheater",
+      "has_cover": false,
+      "rain_backup_plan": "Cancel or reschedule"
+    },
+    {
+      "id": "v002",
+      "name": "Golden Gate Park Bandshell",
+      "location": {
+        "address": "Golden Gate Park, San Francisco, CA 94122",
+        "coordinates": {
+          "latitude": 37.7694,
+          "longitude": -122.4862
+        }
+      },
+      "capacity": 3000,
+      "type": "outdoor_stage",
+      "has_cover": true,
+      "rain_backup_plan": "Use covered stage area"
+    },
+    {
+      "id": "v003",
+      "name": "Grant Park Pavilion",
+      "location": {
+        "address": "337 E Randolph St, Chicago, IL 60601",
+        "coordinates": {
+          "latitude": 41.8837,
+          "longitude": -87.6194
+        }
+      },
+      "capacity": 12000,
+      "type": "outdoor_pavilion",
+      "has_cover": true,
+      "rain_backup_plan": "Use covered pavilion area"
+    },
+    {
+      "id": "v004",
+      "name": "Zilker Park Hillside Theater",
+      "location": {
+        "address": "2201 Barton Springs Rd, Austin, TX 78746",
+        "coordinates": {
+          "latitude": 30.2672,
+          "longitude": -97.7431
+        }
+      },
+      "capacity": 2000,
+      "type": "outdoor_theater",
+      "has_cover": false,
+      "rain_backup_plan": "Cancel event"
+    }
+  ]
+}
