@@ -1,64 +1,8 @@
 {
-  "venues": [
-    {
-      "id": "v001",
-      "name": "Central Park Amphitheater",
-      "location": {
-        "address": "Central Park West, New York, NY 10023",
-        "coordinates": {
-          "latitude": 40.7812,
-          "longitude": -73.9655
-        }
-      },
-      "capacity": 5000,
-      "type": "outdoor_amphitheater",
-      "has_cover": false,
-      "rain_backup_plan": "Cancel or reschedule"
-    },
-    {
-      "id": "v002",
-      "name": "Golden Gate Park Bandshell",
-      "location": {
-        "address": "Golden Gate Park, San Francisco, CA 94122",
-        "coordinates": {
-          "latitude": 37.7694,
-          "longitude": -122.4862
-        }
-      },
-      "capacity": 3000,
-      "type": "outdoor_stage",
-      "has_cover": true,
-      "rain_backup_plan": "Use covered stage area"
-    },
-    {
-      "id": "v003",
-      "name": "Grant Park Pavilion",
-      "location": {
-        "address": "337 E Randolph St, Chicago, IL 60601",
-        "coordinates": {
-          "latitude": 41.8837,
-          "longitude": -87.6194
-        }
-      },
-      "capacity": 12000,
-      "type": "outdoor_pavilion",
-      "has_cover": true,
-      "rain_backup_plan": "Use covered pavilion area"
-    },
-    {
-      "id": "v004",
-      "name": "Zilker Park Hillside Theater",
-      "location": {
-        "address": "2201 Barton Springs Rd, Austin, TX 78746",
-        "coordinates": {
-          "latitude": 30.2672,
-          "longitude": -97.7431
-        }
-      },
-      "capacity": 2000,
-      "type": "outdoor_theater",
-      "has_cover": false,
-      "rain_backup_plan": "Cancel event"
-    }
-  ]
+  "venue_name": "Wrigley Field, Chicago, IL",
+  "coordinates": {
+    "lat": 41.9484,
+    "lng": -87.6553
+  },
+  "weather_forecast": "Tonight:\nTemperature: 11F\nWind: 15 to 20 mph NNW\nForecast: Partly cloudy. Low around 11, with temperatures rising to around 13 overnight. Wind chill values as low as -1. North northwest wind 15 to 20 mph, with gusts as high as 30 mph.\n\n---\n\nSaturday:\nTemperature: 23F\nWind: 5 to 10 mph NNE\nForecast: Mostly sunny. High near 23, with temperatures falling to around 19 in the afternoon. Wind chill values as low as -3. North northeast wind 5 to 10 mph.\n\n---\n\nSaturday Night:\nTemperature: 18F\nWind: 5 to 10 mph SSE\nForecast: Cloudy. Low around 18, with temperatures rising to around 20 overnight. South southeast wind 5 to 10 mph.\n\n---\n\nSunday:\nTemperature: 30F\nWind: 10 mph SSE\nForecast: Partly sunny, with a high near 30. South southeast wind around 10 mph, with gusts as high as 20 mph.\n\n---\n\nSunday Night:\nTemperature: 22F\nWind: 10 mph SSE\nForecast: Mostly cloudy, with a low around 22. South southeast wind around 10 mph."
 }
